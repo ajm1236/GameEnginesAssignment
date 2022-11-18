@@ -7,6 +7,10 @@ public class Tardis : MonoBehaviour
 {
     [Range(0, 360)]
     public float rotSpeed;
+<<<<<<< Updated upstream
+=======
+    [Range(0, 100)]
+>>>>>>> Stashed changes
     public float distance = 20;
     public Transform doctor;
 
