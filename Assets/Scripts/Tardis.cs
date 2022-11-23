@@ -16,6 +16,16 @@ public class Tardis : MonoBehaviour
     {
         transform.Rotate(rotSpeed * Time.deltaTime, rotSpeed * Time.deltaTime, -(rotSpeed * Time.deltaTime));
         this.transform.position = Camera.main.transform.position + Camera.main.transform.forward * distance;
+
+        if (Input.GetKeyDown(KeyCode.DownArrow) && distance > 5)
+        {
+            distance -= 5;
+        }
+
+        if(Input.GetKeyDown(KeyCode.UpArrow) && distance >= 0 && distance < 100)
+        {
+            distance += 5;
+        }
     }
 }
 
