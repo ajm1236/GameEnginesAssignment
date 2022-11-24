@@ -27,14 +27,14 @@ public class Tardis : MonoBehaviour
             distance += 0.1f;
         }
 
-        if (Input.GetKey(KeyCode.RightArrow) && rotSpeed <= 0)
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
-            rotSpeed -= 0.1f;
+            rotSpeed -= 0.3f;
         }
 
-        if (Input.GetKey(KeyCode.RightArrow) && rotSpeed >= 0 && rotSpeed <= 360)
+        if (Input.GetKey(KeyCode.RightArrow))
         {
-            rotSpeed += 0.1f;
+            rotSpeed += 0.3f;
         }
     }
 }
