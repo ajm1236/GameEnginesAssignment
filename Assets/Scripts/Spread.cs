@@ -48,44 +48,44 @@ public class Spread : MonoBehaviour
         trail = GetComponent<TrailRenderer>();
         number = start;
         transform.localPosition = SpreadCalc(degree, scale, number);
-        //if (lerp)
-        //{
-        //    Lerping();
-        //}
+        if (lerp)
+        {
+            Lerping();
+        }
     }
 
 
     // Update is called once per frame
     void Update()
     {
-        //if (lerp)
-        //{
-        //    if (isLerp)
-        //    {
-        //        float sinceStart = Time.time - timeStart;
-        //        float perComplete = sinceStart / interval;
-        //        transform.localPosition = Vector3.Lerp(startPos, endPos, perComplete);
-        //        if (perComplete >= 0.99f)
-        //        {
-        //            transform.localPosition = endPos;
-        //            number += size;
-        //            currentSize++;
-        //            if(currentSize <= maxSize)
-        //            {
-        //                Lerping();
-        //            }
-        //            else
-        //            {
-        //                isLerp = false;
-        //            }
-        //        }
-        //    }
-        //}
-        //else
-        //{
+        if (lerp)
+        {
+            if (isLerp)
+            {
+                float sinceStart = Time.time - timeStart;
+                float perComplete = sinceStart / interval;
+                transform.localPosition = Vector3.Lerp(startPos, endPos, perComplete);
+                if (perComplete >= 0.97f)
+                {
+                    transform.localPosition = endPos;
+                    number += size;
+                    currentSize++;
+                    if (currentSize <= maxSize)
+                    {
+                        Lerping();
+                    }
+                    else
+                    {
+                        isLerp = false;
+                    }
+                }
+            }
+        }
+        else
+        {
             pos = SpreadCalc(degree, scale, number);
             transform.localPosition = new Vector3(pos.x, pos.y, 0);
             number++;
-        //}
+        }
     }
 }
