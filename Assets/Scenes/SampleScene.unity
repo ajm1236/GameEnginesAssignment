@@ -925,7 +925,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 145.7
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -1563,8 +1563,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8a0ed0f7bc190c4c8d0a6cc070ddc51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraDistance: 0
   rotSpeed: 110
+  distance: 20
   doctor: {fileID: 1750535476}
 --- !u!1 &1860736319
 GameObject:
