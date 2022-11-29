@@ -16,6 +16,19 @@ public class Vortex : MonoBehaviour
         vortex.position = new Vector3(vortex.position.x, vortex.position.y, vortex.position.z + (Time.deltaTime * vortexSpeed));
         this.transform.position = new Vector3(this.transform.position.x, this.transform.position.y, vortex.position.z + cameraDistance);
 
+        if (Input.GetKey(KeyCode.S) && vortexSpeed > 10)
+        {
+            vortexSpeed -= 0.1f;
+        }
+        if (Input.GetKey(KeyCode.W) && vortexSpeed < 500)
+        {
+            vortexSpeed += 0.1f;
+        }
+        if (Input.GetKey(KeyCode.R))
+        {
+            vortexSpeed = 80;
+        }
+
     }
 }
 
