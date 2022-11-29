@@ -6,6 +6,7 @@ using UnityEngine;
 public class Vortex : MonoBehaviour
 {
     public Transform vortex;
+    public AudioWork _audioPeer;
     public float vortexSpeed, cameraDistance;
 
 
@@ -14,6 +15,7 @@ public class Vortex : MonoBehaviour
     {
         vortex.position = new Vector3(vortex.position.x, vortex.position.y, vortex.position.z + (Time.deltaTime * vortexSpeed));
         this.transform.position = new Vector3(this.transform.position.x, this.transform.position.y, vortex.position.z + cameraDistance);
+
     }
 }
 

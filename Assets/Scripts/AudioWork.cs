@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(AudioSource))]
-public class Audio : MonoBehaviour
+public class AudioWork : MonoBehaviour
 {
     AudioSource audioSource;
     public static float[] samples = new float[512];
