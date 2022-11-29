@@ -18,11 +18,11 @@ public class Vortex : MonoBehaviour
 
         if (Input.GetKey(KeyCode.S) && vortexSpeed > 10)
         {
-            vortexSpeed -= 0.1f;
+            vortexSpeed -= 0.2f;
         }
         if (Input.GetKey(KeyCode.W) && vortexSpeed < 500)
         {
-            vortexSpeed += 0.1f;
+            vortexSpeed += 0.2f;
         }
         if (Input.GetKey(KeyCode.R))
         {

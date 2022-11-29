@@ -36,6 +36,11 @@ public class Tardis : MonoBehaviour
         {
             rotSpeed += 0.3f;
         }
+        if (Input.GetKey(KeyCode.R))
+        {
+            rotSpeed = 0;
+            distance = 20;
+        }
     }
 }
 
