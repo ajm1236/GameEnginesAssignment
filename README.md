@@ -8,7 +8,12 @@ Inspired by the intro to the classic British sci-fi show 'Doctor Who' [![Doctor 
 this project loosely recreates the time vortex in which The Doctor and his time travelling spaceship, the TARDIS (Time and Relative Dimensions in Space) fly through the
 time vortex and their way to their next adventure.
 # Instructions For Use
+The up and down arrow keys control the distance in which the TARDIS is from the Main Camera.  
+The left and right arrow keys control the speed of rotation of the TARDIS (can rotate either way).  
+'w' & 's' control the speed of the Time Vortex.
+Pressing the 'r' key will reset the speeds, the distance, and the rotation.  
 # How It Works
+We follow the TARDIS along while it is flying through the Time Vortex with the famous long lasting theme tune playing in the background.
 # List of classes/assets in the project
 | Class/asset | Source |
 |-----------|-----------|
