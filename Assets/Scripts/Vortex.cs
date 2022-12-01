@@ -11,7 +11,7 @@ public class Vortex : MonoBehaviour
 
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         vortex.position = new Vector3(vortex.position.x, vortex.position.y, vortex.position.z + (Time.deltaTime * vortexSpeed));
         this.transform.position = new Vector3(this.transform.position.x, this.transform.position.y, vortex.position.z + cameraDistance);

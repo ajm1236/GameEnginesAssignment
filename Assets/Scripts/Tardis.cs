@@ -12,7 +12,7 @@ public class Tardis : MonoBehaviour
     public Transform doctor;
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         transform.Rotate(rotSpeed * Time.deltaTime, rotSpeed * Time.deltaTime, -(rotSpeed * Time.deltaTime));
         this.transform.position = Camera.main.transform.position + Camera.main.transform.forward * distance;
