@@ -29,12 +29,12 @@ public class Tardis : MonoBehaviour
 
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            rotSpeed -= 0.3f;
+            rotSpeed -= 0.5f;
         }
 
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            rotSpeed += 0.3f;
+            rotSpeed += 0.5f;
         }
         if (Input.GetKey(KeyCode.R))
         {

@@ -48,7 +48,7 @@ public class Spread : MonoBehaviour
         pos = SpreadCalc(degree, scale, number);
         transform.localPosition = new Vector3(pos.x, pos.y, 0);
         number++;
-        
+
     }
 
 
