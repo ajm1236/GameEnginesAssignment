@@ -7,7 +7,7 @@ public class Tardis : MonoBehaviour
 {
     [Range(0, 360)]
     public float rotSpeed;
-    [Range(5, 100)]
+    [Range(10, 100)]
     public float distance = 20;
     public Transform doctor;
 
