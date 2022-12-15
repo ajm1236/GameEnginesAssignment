@@ -26,7 +26,7 @@ The TARDIS and Time Vortex can be moved with the controls above.
 | AudioWork.cs | Self written |
 | Vortex.cs | Self written |
 # References  
-[PeerPlay](https://www.youtube.com/@PeerPlay)
+[PeerPlay](https://www.youtube.com/@PeerPlay)  
 [Unity Documentation](https://docs.unity.com/)
 # What I am most proud of in the assignment  
 I am most proud of the Time Vortex that I created. Getting all the trails to compliment one another, very difficult to get the art direction correct so that each trail goes with the other in order to create the Time Vortex look that I was going for. Figuring out the different widths and colour gradients really added up to a Time Vortex I am very proud of. Also figuring out the different angles for each trail and which direction it should go in.  
