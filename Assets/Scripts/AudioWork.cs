@@ -24,3 +24,4 @@ public class AudioWork : MonoBehaviour
         audioSource.GetSpectrumData(samples, 0, FFTWindow.Blackman);
     }
 }
+    
