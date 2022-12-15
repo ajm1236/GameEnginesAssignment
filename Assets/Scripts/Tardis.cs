@@ -7,8 +7,8 @@ public class Tardis : MonoBehaviour
 {
     [Range(0, 360)]
     public float rotSpeed;
-    [Range(5, 100)]
-    public float distance = 20;
+    [Range(20, 120)]
+    public float distance = 40;
     public Transform doctor;
 
     // Update is called once per frame
@@ -19,12 +19,12 @@ public class Tardis : MonoBehaviour
 
         if (Input.GetKey(KeyCode.DownArrow) && distance > 2)
         {
-            distance -= 0.1f;
+            distance -= 0.3f;
         }
 
         if(Input.GetKey(KeyCode.UpArrow) && distance >= 0 && distance < 100)
         {
-            distance += 0.1f;
+            distance += 0.3f;
         }
 
         if (Input.GetKey(KeyCode.LeftArrow))
@@ -39,7 +39,7 @@ public class Tardis : MonoBehaviour
         if (Input.GetKey(KeyCode.R))
         {
             rotSpeed = 0;
-            distance = 20;
+            distance = 40;
         }
     }
 }
