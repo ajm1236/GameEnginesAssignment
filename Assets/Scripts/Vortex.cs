@@ -7,6 +7,7 @@ public class Vortex : MonoBehaviour
 {
     public Transform vortex;
     public AudioWork _audioPeer;
+    [Range(5, 200)]
     public float vortexSpeed, cameraDistance;
 
 

@@ -4,10 +4,6 @@ using UnityEngine;
 
 public class Spread : MonoBehaviour
 {
-
-    public AudioWork _audio;
-
-
     public float degree, scale;
     public int start;
     public int size;
