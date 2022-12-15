@@ -7,4 +7,10 @@ EditorBuildSettings:
   m_Scenes: []
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 1c9e83a7f6ff5fc40b4052ce0ede3a57, type: 2}
+<<<<<<< Updated upstream
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: fe98918e79b8444409b978b7ec494829, type: 2}
+=======
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 6ac67f9e3e34ea34aa8691e2fd2d3865, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: e3053849cf9ce554991612267200f77b, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 530d7da21dd923e489579686176490b7, type: 2}
+>>>>>>> Stashed changes

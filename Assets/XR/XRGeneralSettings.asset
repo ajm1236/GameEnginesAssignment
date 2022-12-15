@@ -1,6 +1,10 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< Updated upstream
 --- !u!114 &-5574851940131546910
+=======
+--- !u!114 &-5718444274366138501
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -16,7 +20,12 @@ MonoBehaviour:
   m_AutomaticLoading: 0
   m_AutomaticRunning: 0
   m_Loaders:
+<<<<<<< Updated upstream
   - {fileID: 11400000, guid: 81b598b090c2fa14f8f3aab3d4a59e49, type: 2}
+=======
+  - {fileID: 11400000, guid: 116e03f5f0dc73d4ba69b5e0af2e2fc9, type: 2}
+  - {fileID: 11400000, guid: 0b47683f3b566da489fef1a49f08a5cc, type: 2}
+>>>>>>> Stashed changes
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29,11 +38,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2dc886499c26824283350fa532d087d, type: 3}
   m_Name: XRGeneralSettings
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   Keys: 0100000007000000
   Values:
   - {fileID: 4403050191138120622}
   - {fileID: 1561233323573842577}
 --- !u!114 &1561233323573842577
+=======
+  Keys: 0700000001000000
+  Values:
+  - {fileID: 7163937134940736151}
+  - {fileID: 3975041446109538560}
+--- !u!114 &3975041446109538560
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -43,11 +60,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d236b7d11115f2143951f1e14045df39, type: 3}
+<<<<<<< Updated upstream
   m_Name: Android Settings
   m_EditorClassIdentifier: 
   m_LoaderManagerInstance: {fileID: 6148253739109188712}
   m_InitManagerOnStart: 1
 --- !u!114 &4403050191138120622
+=======
+  m_Name: Standalone Settings
+  m_EditorClassIdentifier: 
+  m_LoaderManagerInstance: {fileID: -5718444274366138501}
+  m_InitManagerOnStart: 1
+--- !u!114 &4253085839735315711
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -56,20 +81,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< Updated upstream
   m_Script: {fileID: 11500000, guid: d236b7d11115f2143951f1e14045df39, type: 3}
   m_Name: Standalone Settings
   m_EditorClassIdentifier: 
   m_LoaderManagerInstance: {fileID: -5574851940131546910}
   m_InitManagerOnStart: 1
 --- !u!114 &6148253739109188712
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
+=======
   m_Script: {fileID: 11500000, guid: f4c3631f5e58749a59194e0cf6baf6d5, type: 3}
   m_Name: Android Providers
   m_EditorClassIdentifier: 
@@ -78,3 +97,30 @@ MonoBehaviour:
   m_AutomaticRunning: 0
   m_Loaders:
   - {fileID: 11400000, guid: 81b598b090c2fa14f8f3aab3d4a59e49, type: 2}
+  - {fileID: 11400000, guid: 0b47683f3b566da489fef1a49f08a5cc, type: 2}
+--- !u!114 &7163937134940736151
+>>>>>>> Stashed changes
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+<<<<<<< Updated upstream
+  m_Script: {fileID: 11500000, guid: f4c3631f5e58749a59194e0cf6baf6d5, type: 3}
+  m_Name: Android Providers
+  m_EditorClassIdentifier: 
+  m_RequiresSettingsUpdate: 0
+  m_AutomaticLoading: 0
+  m_AutomaticRunning: 0
+  m_Loaders:
+  - {fileID: 11400000, guid: 81b598b090c2fa14f8f3aab3d4a59e49, type: 2}
+=======
+  m_Script: {fileID: 11500000, guid: d236b7d11115f2143951f1e14045df39, type: 3}
+  m_Name: Android Settings
+  m_EditorClassIdentifier: 
+  m_LoaderManagerInstance: {fileID: 4253085839735315711}
+  m_InitManagerOnStart: 1
+>>>>>>> Stashed changes
