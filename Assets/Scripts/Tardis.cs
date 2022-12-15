@@ -7,8 +7,8 @@ public class Tardis : MonoBehaviour
 {
     [Range(0, 360)]
     public float rotSpeed;
-    [Range(5, 100)]
-    public float distance = 20;
+    [Range(25, 200)]
+    public float distance = 60;
     public Transform doctor;
 
     // Update is called once per frame

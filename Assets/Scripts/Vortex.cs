@@ -7,7 +7,7 @@ public class Vortex : MonoBehaviour
 {
     public Transform vortex;
     public AudioWork _audioPeer;
-    [Range(5, 200)]
+    [Range(200, 600)]
     public float vortexSpeed, cameraDistance;
 
 
@@ -27,7 +27,7 @@ public class Vortex : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.R))
         {
-            vortexSpeed = 80;
+            vortexSpeed = 100;
         }
 
     }
