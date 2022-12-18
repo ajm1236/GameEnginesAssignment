@@ -2,7 +2,10 @@
 Name: Adam Moen  
 Student Number: C19318671  
 Class Group: TU857  
-Video: [My Doctor Who Intro](https://youtu.be/8IJ8Xewr1aA)
+Video:  
+[NonVR build of Doctor Who Intro](https://youtu.be/8IJ8Xewr1aA)  
+[VR build of Doctor Who Intro](https://youtu.be/nG2JfPfZ_JM)
+
 # Description of the Project  
 Inspired by the intro to the classic British sci-fi show 'Doctor Who' ([4th Doctor Who Intro](https://www.youtube.com/watch?v=1fnzcAFy8d8&ab_channel=DoctorWho))  
 ([9th Doctor Who Intro](https://www.youtube.com/watch?v=z75qvDtbxjQ&ab_channel=DoctorWho))
@@ -30,6 +33,8 @@ The Doctor's theme is used and is attached to the TARDIS and as it moves away fr
 The light on the top of the TARIDS rotates and flashes as that's what it does when it is in transit. This was done by setting up the rotation as a coroutine and also the flashing was done by turning the light on and off with a few seconds between each as a coroutine also.  
   
 There are two builds for the game, one with VR implementation, and one without. Both can be found in the builds folder.  
+
+Also has VR support which can be found alongside the Non-VR builds in the *Builds* folder.
 
 # List of classes/assets in the project
 | Class/asset | Source |
